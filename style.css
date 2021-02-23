@@ -73,6 +73,43 @@ img {
 }
 
 /*RESPONSIVE*/
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(203, 247, 199);
+  }
+  
+  .row {
+    width: 100%;
+    margin: auto;
+  }
+
+  h1 {
+    padding-top: 30px;
+    color: rgb(27, 59, 23);
+    font-size: 45px;
+  }
+
+  #lezioni .row h3,
+  #steps .row h3,
+  #why .row h3 {
+    color: rgb(27, 59, 23);
+    font-size: 25px;
+  }
+
+  #lezioni .row img,
+  #steps .row img {
+    height: 150px;
+    padding-top: 30px;
+  }
+
+  .container.grey {
+    background-color: lightsteelblue;
+  }
+
+
+/*<420px*/
 @media screen and (max-width: 419px) {
   body {
   background-color: rgb(159, 209, 240);
